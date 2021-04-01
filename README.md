@@ -1,4 +1,4 @@
-# 调度演绎
+# checkbox_echarts
 
 ## Project setup
 ```
@@ -15,8 +15,16 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 预览页
+
+See [Configuration Reference](https://volodyan.github.io/volodyan-chexkbox_echarts_preview/#/DDOrder).
+
+```
+https://volodyan.github.io/volodyan-chexkbox_echarts_preview/#/DDOrder
+
+```
+
+
 
 ### 1. js监听gif停止 libgif-js Gif 操作（开始，暂停，移动帧...)
 
