@@ -1,0 +1,102 @@
+.esri-view .esri-view-surface--inset-outline:focus::after {
+    outline: none !important;
+}
+//*************************************************popupJcdInfo*************************************************
+.popupJcdInfo {
+    position: absolute;
+    text-align: center;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    // pointer-events: none;
+    &:hover {
+        z-index: 3 !important;
+    }
+}
+.content-popupJcdInfo {
+    line-height: 1.4;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    max-width: 300px;
+}
+.table-popupJcdInfo{
+    width: 180px;
+    border-radius: 8px;
+    border: 2px solid #285EB7;
+    background-color: #fff;
+    box-shadow: 0px 6px 8px 0px rgba(9, 17, 25, 0.6);
+}
+.table1-popupJcdInfo{
+    width: 100%;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.table-div-popupJcdInfo{
+    padding: 5px 5px;
+    color: #fff;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    background-color: #285EB7;
+    border-radius: 5px 5px 0px 0px;
+}
+.table-td-l-popupJcdInfo{
+    padding: 2px 5px;
+    padding-left: 12px;
+    color: #6E7B8B;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    width: 47%;
+}
+.table-td-r-popupJcdInfo{
+    text-align: left;
+    font-size: 12px;
+    width: 40%;
+    color: #6E7B8B;
+}
+.table-td-value-popupJcdInfo{
+    color: #285EB7;
+}
+.table-td-img-popupJcdInfo-up{
+    width: 13%;
+    background: url('../mapimg/up.png') no-repeat;
+    background-position: right center;
+}
+.table-td-img-popupJcdInfo-down{
+    width: 13%;
+    background: url('../mapimg/down.png') no-repeat;
+    background-position: right center;
+}
+.tip-container-popupJcdInfo {
+    margin: 0 auto;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    left: 82px;
+    top: 52px;
+}
+.tip-b-popupJcdInfo {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top: 12px solid #285EB7;
+    position: absolute;
+    top: 1px;
+}
+.tip-popupJcdInfo {
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top: 10px solid #fff;
+    position: absolute;
+    left: 2px;
+}
